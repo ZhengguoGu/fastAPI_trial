@@ -37,4 +37,3 @@ class Blog(BaseModel):
 def create_blog(request: Blog):
     return {'data': f'Blog is created with {request.title} title.'}
 
-#to run: uvicorn main:app --reload

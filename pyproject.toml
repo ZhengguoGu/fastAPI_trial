@@ -8,6 +8,7 @@ authors = ["Zhengguo MacbookPro <zhengguo.gu@gmail.com>"]
 python = "^3.8"
 uvicorn = "^0.13.4"
 fastapi = "^0.63.0"
+SQLAlchemy = "^1.4.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
